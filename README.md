@@ -1,20 +1,27 @@
-# 日本語 Study Guide — Capítulos 45 a 50
+# 日本語 Study Guide — Capítulos 38 a 50
 
-Apostila digital de revisão de japonês (Capítulos 45–50), em HTML/CSS/JS puro — sem frameworks, sem build, sem dependências.
+Apostila digital de revisão de japonês (Capítulos 38–50), em HTML/CSS/JS puro — sem frameworks, sem build, sem dependências. Nível de preparação: JLPT N3.
 
 ## Status
 
 | Capítulo | Conteúdo | Status |
 |---|---|---|
 | Introdução | Como usar o site | ✅ Completo |
+| 38 | ～のは・のが ・ ～のを忘れました・のを知っていますか ・ ～のは～です | ✅ Completo |
+| 39 | て/で ・ から ・ ので ・ 途中で | ✅ Completo |
+| 40 | か ・ かどうか ・ てみます ・ さ ・ でしょうか | ✅ Completo |
+| 41 | いただきます ・ くださいます ・ やります | ✅ Completo |
+| 42 | ために ・ ように ・ によって | ✅ Completo |
+| 43 | そうです（aparência）・ てきます | ✅ Completo |
+| 44 | すぎます ・ やすい ・ にくい ・ にします | ✅ Completo |
 | 45 | 場合・のに | ✅ Completo |
 | 46 | ところです・ばかりです・はずです | ✅ Completo |
 | 47 | そうです・ようです・～がします | ✅ Completo |
 | 48 | Verbos causativos | ✅ Completo |
 | 49 | 尊敬語 | ✅ Completo |
 | 50 | 謙譲語 | ✅ Completo |
-| Revisão Geral | Quadro-resumo de tudo | ✅ Completo |
-| Exercícios Finais | 50 questões (nível N4/N3) | ✅ Completo |
+| Revisão Geral | Quadro-resumo — ainda cobre só 45-50 | 🚧 Precisa incluir 38-44 |
+| Exercícios Finais | 50 questões — ainda cobre só 45-50 | 🚧 Precisa expandir para 70+ questões, 38-50 |
 
 ## Estrutura do projeto
 
