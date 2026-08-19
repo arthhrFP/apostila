@@ -30,11 +30,11 @@ function buildSidebar() {
 
 let html = ''
   + '<div class="sidebar-header">'
-  +  '<div class="logo-jp">日本語</div>'
-  +  '<div class="logo-sub">Study Guide</div>'
-  +  '<div class="logo-tag">Capítulos 38–50 · Revisão para prova</div>'
+  +   '<div class="logo-jp">日本語</div>'
+  +   '<div class="logo-sub">Study Guide</div>'
+  +   '<div class="logo-tag">Capítulos 45–50 · Revisão para prova</div>'
   + '</div>'
-  + '<nav class="sidebar-nav"><ul>';"><ul>';
+  + '<nav class="sidebar-nav"><ul>';
 
   NAV_ITEMS.forEach(item => {
     if (item.divider) {
