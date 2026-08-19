@@ -28,13 +28,14 @@ function buildSidebar() {
   if (!mount) return;
   const current = currentPageName();
 
-  let html = ''
-    + '<div class="sidebar-header">'
-    +   '<div class="logo-jp">日本語</div>'
-    +   '<div class="logo-sub">Study Guide</div>'
-    +   '<div class="logo-tag">Capítulos 45–50 · Revisão para prova</div>'
-    + '</div>'
-    + '<nav class="sidebar-nav"><ul>';
+let html = ''
+  + '<div class="sidebar-header">'
+  +   '<div class="logo-jp">日本語</div>'
+  +   '<div class="logo-sub">Study Guide</div>'
+  +   '<div class="logo-tag">Capítulos 38–50 · Revisão para prova</div>'
+  + '</div>'
+  + '<a href="cap38.html" class="nav-shortcut">🆕 Novos capítulos (38–44)</a>'
+  + '<nav class="sidebar-nav"><ul>';"><ul>';
 
   NAV_ITEMS.forEach(item => {
     if (item.divider) {
