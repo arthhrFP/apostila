@@ -7,6 +7,13 @@
 
 const NAV_ITEMS = [
   { page: 'index.html',      badge: '序', label: 'Introdução' },
+  { page: 'cap38.html',      badge: '38', label: 'Capítulo 38' },
+  { page: 'cap39.html',      badge: '39', label: 'Capítulo 39' },
+  { page: 'cap40.html',      badge: '40', label: 'Capítulo 40' },
+  { page: 'cap41.html',      badge: '41', label: 'Capítulo 41' },
+  { page: 'cap42.html',      badge: '42', label: 'Capítulo 42' },
+  { page: 'cap43.html',      badge: '43', label: 'Capítulo 43' },
+  { page: 'cap44.html',      badge: '44', label: 'Capítulo 44' },
   { page: 'cap45.html',      badge: '45', label: 'Capítulo 45' },
   { page: 'cap46.html',      badge: '46', label: 'Capítulo 46' },
   { page: 'cap47.html',      badge: '47', label: 'Capítulo 47' },
