@@ -1,12 +1,19 @@
-# 日本語 Study Guide — Capítulos 38 a 50
+# 日本語 Study Guide — Capítulos 31 a 50
 
-Apostila digital de revisão de japonês (Capítulos 38–50), em HTML/CSS/JS puro — sem frameworks, sem build, sem dependências. Nível de preparação: JLPT N3.
+Apostila digital de revisão de japonês (Capítulos 31–50), em HTML/CSS/JS puro — sem frameworks, sem build, sem dependências. Nível de preparação: JLPT N3.
 
 ## Status
 
 | Capítulo | Conteúdo | Status |
 |---|---|---|
 | Introdução | Como usar o site | ✅ Completo |
+| 31 | 意向形 ・ と思っています ・ つもりです ・ 予定です ・ まだ～ていません ・ ます形の名詞化 | ✅ Completo |
+| 32 | たほうがいいです ・ でしょう ・ かもしれません | ✅ Completo |
+| 33 | 命令形・禁止形 ・ と書いてあります ・ と読みます ・ と言っていました | ✅ Completo |
+| 34 | とおりに ・ あとで | ✅ Completo |
+| 35 | ば ・ たら ・ なら ・ はありませんか | ✅ Completo |
+| 36 | ように ・ ようになります ・ ようにします ・ ようにしています | ✅ Completo |
+| 37 | 受身（direta・sofrimento・impessoal） ・ から／で作ります ・ S₁のS₂ ・ この／その／あの+localização | ✅ Completo |
 | 38 | ～のは・のが ・ ～のを忘れました・のを知っていますか ・ ～のは～です | ✅ Completo |
 | 39 | て/で ・ から ・ ので ・ 途中で | ✅ Completo |
 | 40 | か ・ かどうか ・ てみます ・ さ ・ でしょうか | ✅ Completo |
@@ -28,7 +35,7 @@ Apostila digital de revisão de japonês (Capítulos 38–50), em HTML/CSS/JS pu
 ```
 .
 ├── index.html          → página inicial (Introdução)
-├── cap45.html … cap50.html
+├── cap31.html … cap50.html
 ├── revisao.html
 ├── exercicios.html
 ├── css/

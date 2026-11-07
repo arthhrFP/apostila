@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capítulo 35 — Condicionais | 日本語 Study Guide</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button id="menu-toggle" aria-label="Abrir menu">☰</button>
+<nav id="sidebar"></nav>
+
+<main id="content">
+  <section class="content-section active">
+
+    <h1>Capítulo 35</h1>
+    <p style="color:var(--sumi-soft);margin-bottom:36px;">～ば ・ ～たら ・ ～と × ～ば × ～たら ・ 疑問詞+ばいいですか ・ ～なら ・ ～はありませんか</p>
+
+    <div class="grammar-block" id="g-ba">
+      <div class="jp-title-row">
+        <div class="jp-grid"><span>ば</span></div>
+        <div class="jp-title-meta">
+          <div class="kana">ば</div>
+          <div class="translation">Se... / Caso... — condição necessária para um resultado</div>
+        </div>
+      </div>
+
+      <div class="card usage-box">
+        <div class="card-label"><span class="num">1</span> Quando é utilizada</div>
+        <p>ば expressa uma condição <strong>necessária</strong> para que algo aconteça — regras gerais, condições lógicas, consequências quase automáticas.</p>
+        <p><strong>Use quando:</strong> quer expressar uma condição necessária para um resultado (regra geral, relação de causa-efeito).</p>
+        <p><strong>Evite quando:</strong> a oração principal expressa intenção, ordem, pedido ou desejo com o mesmo sujeito da condição afirmativa — nesses casos, たら costuma soar mais natural (ver comparação no próximo bloco).</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">2</span> Formação</div>
+        <table>
+          <thead><tr><th>Grupo/tipo</th><th>Regra</th><th>Exemplo</th></tr></thead>
+          <tbody>
+            <tr><td rowspan="3">I（Godan）</td><td rowspan="3">radical da forma ます: troca a sílaba da coluna い pela coluna え + ば</td><td class="jp">書きます → 書けば</td></tr>
+            <tr><td class="jp">読みます → 読めば</td></tr>
+            <tr><td class="jp">行きます → 行けば</td></tr>
+            <tr><td rowspan="2">II（Ichidan）</td><td rowspan="2">radical da forma ます + れば</td><td class="jp">食べます → 食べれば</td></tr>
+            <tr><td class="jp">見ます → 見れば</td></tr>
+            <tr><td rowspan="2">III（irregular）</td><td rowspan="2">forma própria</td><td class="jp">します → すれば</td></tr>
+            <tr><td class="jp">来ます → 来れば</td></tr>
+            <tr><td>Negativo</td><td>Vない → Vなければ</td><td class="jp">行かない → 行かなければ</td></tr>
+            <tr><td>A い</td><td>raiz + ければ</td><td class="jp">安い → 安ければ</td></tr>
+            <tr><td>A な／S</td><td>raiz + なら（ば）</td><td class="jp">静かだ → 静かなら（ば）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">3</span> Explicação detalhada</div>
+        <p>ば expressa uma condição necessária, geralmente para uma regra, condição lógica ou consequência quase automática — "se X (de forma geral), então Y".</p>
+        <p>Quando a oração principal contém intenção, ordem ou pedido, e o sujeito é o mesmo da condição afirmativa, ば soa estranho nessa combinação — essa restrição fica mais clara na comparação com たら, no próximo bloco. A forma negativa (なければ) não tem essa restrição com a mesma força, e é amplamente usada até para obrigação (なければなりません).</p>
+        <p>Substantivos e adjetivos な tecnicamente formam o condicional com なら(ば), mas na prática o uso cotidiano converge para なら sozinho, tratado com mais detalhe em bloco próprio mais adiante neste capítulo.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">4</span> Exemplos</div>
+
+        <div class="pattern-tag">V／A い + ば（condição, regra geral）</div>
+        <div class="example">
+          <div class="jp-sentence">春になれば、桜が咲きます。</div>
+          <div class="reading">はるに なれば、さくらが さきます。</div>
+          <div class="pt-translation">Quando chega a primavera, as cerejeiras florescem.</div>
+          <div class="pt-explain">Consequência natural e previsível — condição geral, quase automática.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">このボタンを押せば、電気がつきます。</div>
+          <div class="reading">このボタンを おせば、でんきが つきます。</div>
+          <div class="pt-translation">Se apertar esse botão, a luz acende.</div>
+          <div class="pt-explain">Relação de causa-efeito clara, regra de funcionamento.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">安ければ、買います。</div>
+          <div class="reading">やすければ、かいます。</div>
+          <div class="pt-translation">Se for barato, eu compro.</div>
+          <div class="pt-explain">Aい + ければ, condição simples sobre um adjetivo.</div>
+        </div>
+
+        <div class="pattern-tag">疑問詞 + V ばいいですか（o que devo fazer?）</div>
+        <div class="example">
+          <div class="jp-sentence">どうすればいいですか。</div>
+          <div class="reading">どうすれば いいですか。</div>
+          <div class="pt-translation">O que devo fazer?</div>
+          <div class="pt-explain">Pergunta muito comum usando ばいい para pedir orientação.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">どこへ行けばいいですか。</div>
+          <div class="reading">どこへ いけば いいですか。</div>
+          <div class="pt-translation">Para onde devo ir?</div>
+          <div class="pt-explain">疑問詞（どこ）+ Vばいいですか, pedindo indicação de lugar.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">何時に来ればいいですか。</div>
+          <div class="reading">なんじに くれば いいですか。</div>
+          <div class="pt-translation">A que horas devo vir?</div>
+          <div class="pt-explain">Outro exemplo de pedido de orientação usando ばいいですか.</div>
+        </div>
+      </div>
+
+      <div class="card obs-box">
+        <div class="card-label"><span class="num">✓</span> Observações importantes</div>
+        <ul>
+          <li>ばいいですか é uma estrutura fixa muito comum para pedir orientação, com praticamente qualquer palavra interrogativa antes (どう, どこ, いつ, 何, だれ).</li>
+          <li>A restrição sobre intenção/pedido/ordem na oração principal se aplica mais fortemente à forma afirmativa com sujeito idêntico; ば com verbo negativo (なければ) é usado livremente, até para obrigação.</li>
+          <li>Substantivos e adjetivos な tecnicamente formam o condicional com なら（ば）, mas o uso cotidiano converge para なら sozinho.</li>
+        </ul>
+      </div>
+
+      <div class="warn-box">
+        <div class="warn-stamp">訂正</div>
+        <div class="card-label"><span class="num">!</span> Erros comuns</div>
+        <ul>
+          <li><strong>Usar ば com um pedido/ordem direta no mesmo sujeito da condição.</strong> Menos natural: <span class="jp">安ければ、買ってください</span>. Mais natural: <span class="jp">安かったら、買ってください</span>.</li>
+          <li><strong>Esquecer a mudança de vogal no Grupo I.</strong> Errado: <span class="jp">書くば</span>. Certo: <span class="jp">書けば</span>.</li>
+          <li><strong>Confundir a formação de Aい (ければ) com a de verbos.</strong> São padrões distintos, apesar de ambos terminarem em ば.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">5</span> Como reconhecer esta gramática</div>
+        <p>Identifique o verbo/adjetivo por trás de cada ば.</p>
+        <ol class="pattern-list">
+          <li><span class="jp">時間があれば、手伝います。</span></li>
+          <li><span class="jp">薬を飲めば、よくなりますよ。</span></li>
+          <li><span class="jp">雨が降れば、試合は中止です。</span></li>
+          <li><span class="jp">早く出れば、間に合います。</span></li>
+          <li><span class="jp">これを押せば、ドアが開きます。</span></li>
+          <li><span class="jp">何を食べればいいですか。</span></li>
+          <li><span class="jp">分からなければ、聞いてください。</span></li>
+          <li><span class="jp">頑張れば、できますよ。</span></li>
+          <li><span class="jp">いつ電話すればいいですか。</span></li>
+          <li><span class="jp">練習すれば、上手になります。</span></li>
+        </ol>
+        <button class="gabarito-toggle" onclick="togglePatternKey('key-ba', this)">🔍  Ver padrões de cada frase</button>
+        <ol class="pattern-key" id="key-ba">
+          <li><strong>1.</strong> あれば ← あります</li>
+          <li><strong>2.</strong> 飲めば ← 飲みます</li>
+          <li><strong>3.</strong> 降れば ← 降ります</li>
+          <li><strong>4.</strong> 出れば ← 出ます</li>
+          <li><strong>5.</strong> 押せば ← 押します</li>
+          <li><strong>6.</strong> 食べればいいですか ← 食べます</li>
+          <li><strong>7.</strong> 分からなければ ← 分かりません（否定）</li>
+          <li><strong>8.</strong> 頑張れば ← 頑張ります</li>
+          <li><strong>9.</strong> 電話すればいいですか ← 電話します</li>
+          <li><strong>10.</strong> 練習すれば ← 練習します</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">6</span> Exercícios</div>
+        <div class="exercise-set">
+          <div class="exercise"><span class="q-num">1.</span><span class="q-text">春に <span class="jp">＿＿</span>、桜が咲きます。（なります、ば）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なれば</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">なるば</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">なりば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">なろうば</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">2.</span><span class="q-text">早く <span class="jp">＿＿</span>、間に合いますよ。（出ます、ば）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">出れば</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">出るば</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">出りば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">出ろば</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">3.</span><span class="q-text"><span class="jp">＿＿</span>、買います。（安い、ば）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">安いば</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">安ければ</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">安くば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">安かれば</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">4.</span><span class="q-text">何を <span class="jp">＿＿</span> ですか。（食べます、ばいい）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">食べればいい</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">食べますばいい</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">食べようばいい</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">食べたいば</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">5.</span><span class="q-text">どの文が間違っていますか。（します、ば）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">すれば</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">しれば</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">来れば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">あれば</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">6.</span><span class="q-text">「このボタンを押せば、電気がつきます」はどんな意味ですか。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Mesmo apertando o botão, a luz não acende</li>
+              <li><span class="opt-letter">B)</span>Apertando esse botão, a luz sempre acende (relação de causa-efeito)</li>
+              <li><span class="opt-letter">C)</span>A luz acende sozinha, sem apertar nada</li>
+              <li><span class="opt-letter">D)</span>É proibido apertar o botão</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">7.</span><span class="q-text">分から <span class="jp">＿＿</span>、聞いてください。（分かります、なければ）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なければ</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">ないば</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">なくば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">なかれば</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">8.</span><span class="q-text">"O que devo fazer?" em japonês:</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">何をしましたか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">何をすればいいですか</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">何をするつもりですか</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">何をする予定ですか</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">9.</span><span class="q-text">「安ければ、買ってください」という文について正しいのは？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Soa perfeitamente natural, sem ressalvas</li>
+              <li><span class="opt-letter">B)</span>Soa um pouco estranho como pedido; 「安かったら、買ってください」é mais natural</li>
+              <li><span class="opt-letter">C)</span>Está completamente errado gramaticalmente</li>
+              <li><span class="opt-letter">D)</span>Muda completamente o significado</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">10.</span><span class="q-text">頑張 <span class="jp">＿＿</span>、できますよ。（頑張ります、ば）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">れば</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">るば</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">りば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">ろば</span></li>
+            </ul>
+          </div>
+        </div>
+        <button class="gabarito-toggle" onclick="toggleGabarito('gab-ba', this)">📖  Ver Gabarito</button>
+        <div class="gabarito" id="gab-ba">
+          <h4>Gabarito — ば</h4>
+          <div class="gabarito-item"><span class="correct-answer">Questão 1 — A) なれば</span><p>Grupo I, り→れ+ば.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 2 — A) 出れば</span><p>Grupo II, radical + れば.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 3 — B) 安ければ</span><p>Aい, raiz + ければ.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 4 — A) 食べればいい</span><p>V + ば + いい, pedindo orientação.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 5 — B) しれば</span><p>しれば não existe; a forma correta de します é すれば.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 6 — B</span><p>A frase expressa uma relação de causa-efeito quase automática/garantida.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 7 — A) なければ</span><p>Forma negativa + ば.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 8 — B) 何をすればいいですか</span></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 9 — B</span><p>Pedidos diretos com o mesmo sujeito soam menos naturais com ば afirmativo; たら é mais natural nesse caso.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 10 — A) れば</span><p>Grupo I, り→れ+ば.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grammar-block" id="g-tara">
+      <div class="jp-title-row">
+        <div class="jp-grid"><span>た</span><span>ら</span></div>
+        <div class="jp-title-meta">
+          <div class="kana">たら</div>
+          <div class="translation">Se.../Quando... — condicional flexível, também usado como sequência temporal</div>
+        </div>
+      </div>
+
+      <div class="card usage-box">
+        <div class="card-label"><span class="num">1</span> Quando é utilizada</div>
+        <p>たら tem dois usos principais: <strong>condição</strong> ("se") e <strong>sequência temporal</strong> ("quando/depois que"). É o condicional mais flexível, aceitando livremente intenção, pedido, ordem, sugestão ou desejo na oração principal — sem a restrição de ば.</p>
+        <p><strong>Use quando:</strong> quer uma condição mais livre e flexível (permite pedidos e sugestões), ou quer dizer "quando X acontecer, Y".</p>
+        <p><strong>Evite quando:</strong> quer enfatizar uma regra geral/lógica automática — nesses casos ば ou と soam ligeiramente mais adequados, embora たら também funcione.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">2</span> Formação</div>
+        <table>
+          <thead><tr><th>Padrão</th><th>Exemplo</th></tr></thead>
+          <tbody>
+            <tr><td>V た形 + ら</td><td class="jp">食べたら／したら／来たら</td></tr>
+            <tr><td>A い（raiz）+ かったら</td><td class="jp">安かったら</td></tr>
+            <tr><td>A な／S（raiz）+ だったら</td><td class="jp">静かだったら／学生だったら</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">3</span> Explicação detalhada</div>
+        <p>A formação de たら é simplesmente a forma た (passado) + ら — fácil de lembrar assim que você já domina o た形.</p>
+        <p>Diferente de ば, たら permite com muito mais liberdade que a oração principal contenha intenção, pedido, ordem, sugestão ou esperança — mesmo com o mesmo sujeito da condição.</p>
+        <p>Quando たら expressa sequência temporal (algo que efetivamente vai acontecer, não uma hipótese), a tradução mais natural costuma ser "quando" em vez de "se".</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">4</span> Exemplos</div>
+
+        <div class="pattern-tag">たら（condição, com pedido/sugestão）</div>
+        <div class="example">
+          <div class="jp-sentence">安かったら、買ってください。</div>
+          <div class="reading">やすかったら、かってください。</div>
+          <div class="pt-translation">Se for barato, compre, por favor.</div>
+          <div class="pt-explain">Pedido direto na oração principal — soa natural com たら, diferente de ば.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">時間があったら、電話してください。</div>
+          <div class="reading">じかんが あったら、でんわしてください。</div>
+          <div class="pt-translation">Se tiver tempo, ligue para mim, por favor.</div>
+          <div class="pt-explain">Outro pedido, natural com たら.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">もし宝くじが当たったら、世界一周旅行をしたいです。</div>
+          <div class="reading">もし たからくじが あたったら、せかいいっしゅう りょこうを したいです。</div>
+          <div class="pt-translation">Se eu ganhar na loteria, quero fazer uma viagem ao redor do mundo.</div>
+          <div class="pt-explain">Desejo（したい）na oração principal, natural com たら.</div>
+        </div>
+
+        <div class="pattern-tag">たら（sequência temporal, "quando"）</div>
+        <div class="example">
+          <div class="jp-sentence">家に帰ったら、すぐシャワーを浴びます。</div>
+          <div class="reading">いえに かえったら、すぐ シャワーを あびます。</div>
+          <div class="pt-translation">Quando eu chegar em casa, vou tomar banho na hora.</div>
+          <div class="pt-explain">Sequência temporal — não é hipótese, é o que vai acontecer.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">春になったら、花見に行きましょう。</div>
+          <div class="reading">はるに なったら、はなみに いきましょう。</div>
+          <div class="pt-translation">Quando a primavera chegar, vamos ver as flores de cerejeira.</div>
+          <div class="pt-explain">Sugestão（ましょう）combinada com sequência temporal.</div>
+        </div>
+      </div>
+
+      <div class="card obs-box">
+        <div class="card-label"><span class="num">✓</span> Observações importantes</div>
+        <ul>
+          <li>たら é o condicional mais versátil e mais usado na fala cotidiana, exatamente por não ter as restrições de ば.</li>
+          <li>Quando o evento é certo de acontecer (não hipotético), たら tende a soar como "quando" em vez de "se".</li>
+          <li>もし (se, por acaso) costuma aparecer no início de frases com たら para reforçar o caráter hipotético, especialmente em situações menos prováveis.</li>
+        </ul>
+      </div>
+
+      <div class="warn-box">
+        <div class="warn-stamp">訂正</div>
+        <div class="card-label"><span class="num">!</span> Erros comuns</div>
+        <ul>
+          <li><strong>Achar que たら só serve para hipóteses.</strong> Também é usado para sequência temporal de algo que certamente vai acontecer.</li>
+          <li><strong>Esquecer que a base de たら é a forma た, não a forma dicionário.</strong> Errado: <span class="jp">食べるたら</span>. Certo: <span class="jp">食べたら</span>.</li>
+          <li><strong>Confundir a formação de Aな／S (だったら) com a de Aい (かったら).</strong> São padrões diferentes.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">5</span> Comparação</div>
+        <div class="comparison-title">～と × ～ば × ～たら</div>
+        <table>
+          <thead><tr><th></th><th class="jp">と</th><th class="jp">ば</th><th class="jp">たら</th></tr></thead>
+          <tbody>
+            <tr><td>Natureza</td><td>Resultado natural, automático, inevitável</td><td>Condição necessária, mais lógica</td><td>Condição geral e flexível</td></tr>
+            <tr><td>Oração principal</td><td>Restrita, parecida com ば</td><td>Intenção/pedido/ordem soam estranhos com mesmo sujeito</td><td>Aceita pedido, ordem, sugestão e desejo livremente</td></tr>
+            <tr><td>Exemplo (mesma situação)</td><td class="jp">春になると、桜が咲きます。</td><td class="jp">春になれば、桜が咲きます。</td><td class="jp">春になったら、花見に行きましょう。</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.9rem;color:var(--sumi-soft);margin-top:12px">Se a oração principal tem um pedido, ordem, sugestão ou desejo, たら é quase sempre a escolha mais segura.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">6</span> Como reconhecer esta gramática</div>
+        <p>Identifique o verbo/adjetivo por trás de cada たら.</p>
+        <ol class="pattern-list">
+          <li><span class="jp">お金があったら、旅行に行きたいです。</span></li>
+          <li><span class="jp">駅に着いたら、電話してください。</span></li>
+          <li><span class="jp">もし雨が降ったら、中止にしましょう。</span></li>
+          <li><span class="jp">仕事が終わったら、飲みに行きませんか。</span></li>
+          <li><span class="jp">疲れたら、休んでください。</span></li>
+          <li><span class="jp">彼に会ったら、よろしくと伝えてください。</span></li>
+          <li><span class="jp">大人になったら、何をしたいですか。</span></li>
+          <li><span class="jp">お腹が空いたら、これを食べてください。</span></li>
+          <li><span class="jp">安かったら、二つ買います。</span></li>
+          <li><span class="jp">分からないことがあったら、聞いてください。</span></li>
+        </ol>
+        <button class="gabarito-toggle" onclick="togglePatternKey('key-tara', this)">🔍  Ver padrões de cada frase</button>
+        <ol class="pattern-key" id="key-tara">
+          <li><strong>1.</strong> あったら ← あります</li>
+          <li><strong>2.</strong> 着いたら ← 着きます</li>
+          <li><strong>3.</strong> 降ったら ← 降ります</li>
+          <li><strong>4.</strong> 終わったら ← 終わります</li>
+          <li><strong>5.</strong> 疲れたら ← 疲れます</li>
+          <li><strong>6.</strong> 会ったら ← 会います</li>
+          <li><strong>7.</strong> なったら ← なります</li>
+          <li><strong>8.</strong> 空いたら ← 空きます</li>
+          <li><strong>9.</strong> 安かったら ← 安い</li>
+          <li><strong>10.</strong> あったら ← あります</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">7</span> Exercícios</div>
+        <div class="exercise-set">
+          <div class="exercise"><span class="q-num">1.</span><span class="q-text"><span class="jp">＿＿</span>、買ってください。（安い、たら）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">安かったら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">安いたら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">安くたら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">安ければたら</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">2.</span><span class="q-text">家に <span class="jp">＿＿</span>、すぐシャワーを浴びます。（帰ります、たら）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">帰ったら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">帰るたら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">帰りたら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">帰ろうたら</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">3.</span><span class="q-text">「安ければ、買ってください」と「安かったら、買ってください」について正しいのは？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>A segunda soa mais natural como pedido</li>
+              <li><span class="opt-letter">B)</span>A primeira soa mais natural como pedido</li>
+              <li><span class="opt-letter">C)</span>Têm exatamente a mesma naturalidade</li>
+              <li><span class="opt-letter">D)</span>As duas soam estranhas</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">4.</span><span class="q-text">「家に帰ったら、すぐシャワーを浴びます」の「たら」は主にどんな意味ですか。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Uma hipótese ("se, por acaso")</li>
+              <li><span class="opt-letter">B)</span>Sequência temporal ("depois que")</li>
+              <li><span class="opt-letter">C)</span>Um motivo ("por causa de")</li>
+              <li><span class="opt-letter">D)</span>Uma concessão ("apesar de")</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">5.</span><span class="q-text">学生 <span class="jp">＿＿</span>、割引があります。（学生だ、たら）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">だったら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">だたら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">のたら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">がたら</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">6.</span><span class="q-text">「もし宝くじが当たったら、世界一周旅行をしたいです」の「もし」の役割は？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Enfatizar que algo com certeza vai acontecer</li>
+              <li><span class="opt-letter">B)</span>Enfatizar o caráter hipotético/pouco provável</li>
+              <li><span class="opt-letter">C)</span>Indicar o passado</li>
+              <li><span class="opt-letter">D)</span>Indicar proibição</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">7.</span><span class="q-text">"Se tiver tempo, ligue para mim, por favor" — melhor tradução:</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">時間があれば、電話してください</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">時間があったら、電話してください</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">時間があるでしょう、電話してください</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">時間があるかもしれません、電話してください</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">8.</span><span class="q-text">大人に <span class="jp">＿＿</span>、何をしたいですか。（なります、たら）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なったら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">なるたら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">なりたら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">なろうたら</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">9.</span><span class="q-text">オ論principalに依頼・命令・提案がある場合、最も適した条件形はどれですか。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">と</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">ば</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">たら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">でしょう</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">10.</span><span class="q-text">もし雨が <span class="jp">＿＿</span>、中止にしましょう。（降ります、たら）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">降ったら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">降るたら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">降りたら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">降ろうたら</span></li>
+            </ul>
+          </div>
+        </div>
+        <button class="gabarito-toggle" onclick="toggleGabarito('gab-tara', this)">📖  Ver Gabarito</button>
+        <div class="gabarito" id="gab-tara">
+          <h4>Gabarito — たら</h4>
+          <div class="gabarito-item"><span class="correct-answer">Questão 1 — A) 安かったら</span><p>Aい, raiz + かったら.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 2 — A) 帰ったら</span><p>Forma た + ら.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 3 — A</span><p>たら soa mais natural que ば quando a oração principal é um pedido direto.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 4 — B</span><p>Aqui, たら expressa sequência temporal ("depois que"), não uma hipótese.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 5 — A) だったら</span><p>Substantivo + だったら.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 6 — B</span><p>もし reforça o caráter hipotético/pouco provável da condição.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 7 — B</span><p>たら é a escolha mais segura para pedidos na oração principal.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 8 — A) なったら</span><p>Forma た + ら.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 9 — C) たら</span><p>たら é a mais flexível, aceitando pedido, ordem, sugestão e desejo livremente.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 10 — A) 降ったら</span><p>Forma た + ら.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grammar-block" id="g-nara">
+      <div class="jp-title-row">
+        <div class="jp-grid"><span>な</span><span>ら</span></div>
+        <div class="jp-title-meta">
+          <div class="kana">なら</div>
+          <div class="translation">Se for... / Quanto a... — reage a um tópico já mencionado</div>
+        </div>
+      </div>
+
+      <div class="card usage-box">
+        <div class="card-label"><span class="num">1</span> Quando é utilizada</div>
+        <p>なら tem uma característica única: normalmente reage a um <strong>tópico já mencionado</strong> ou implícito — pela outra pessoa, ou pelo contexto da conversa. É como dizer "se é sobre isso...", "quanto a X...".</p>
+        <p><strong>Use quando:</strong> quer reagir a algo que a outra pessoa mencionou, dando uma sugestão, opinião ou informação relacionada a esse tópico.</p>
+        <p><strong>Evite quando:</strong> não há um tópico prévio claro sendo reagido — nesses casos, os outros condicionais (ば／たら) são mais apropriados para hipóteses "do zero".</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">2</span> Formação</div>
+        <table>
+          <thead><tr><th>Padrão</th><th>Exemplo</th></tr></thead>
+          <tbody>
+            <tr><td>S + なら</td><td class="jp">日本語なら、わかります</td></tr>
+            <tr><td>V／A い 辞書形 + なら</td><td class="jp">行くなら、早めに出たほうがいいです</td></tr>
+            <tr><td>A な（raiz）+ なら</td><td class="jp">静かなら、いいです</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">3</span> Explicação detalhada</div>
+        <p>なら tem uma característica única entre os condicionais: reage a algo já mencionado, implícito, ou que está no ar da conversa — diferente de ば／たら／と, que introduzem uma condição "nova".</p>
+        <p>É muito comum em diálogos: a Pessoa A menciona um tópico (explícita ou implicitamente), e a Pessoa B responde usando ~なら para dar uma sugestão, opinião ou informação relacionada especificamente a esse tópico.</p>
+        <p>Diferente de たら／ば, なら normalmente <strong>não</strong> tem nuance de sequência temporal — é sempre sobre reagir a uma condição/tópico, nunca sobre "depois que" algo acontecer.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">4</span> Exemplos</div>
+
+        <div class="pattern-tag">なら（reagindo a um tópico mencionado）</div>
+        <div class="example">
+          <div class="jp-sentence">A：京都に旅行に行くんです。　B：京都なら、清水寺がおすすめですよ。</div>
+          <div class="reading">きょうとに りょこうに いくんです。／きょうとなら、きよみずでらが おすすめですよ。</div>
+          <div class="pt-translation">A: Vou viajar para Quioto. B: Se é Quioto, eu recomendo o Kiyomizu-dera.</div>
+          <div class="pt-explain">B reage diretamente ao tópico "Quioto" mencionado por A.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">行くなら、早めに出たほうがいいですよ。</div>
+          <div class="reading">いくなら、はやめに でたほうがいいですよ。</div>
+          <div class="pt-translation">Se for mesmo ir, é melhor sair mais cedo.</div>
+          <div class="pt-explain">Reage à possibilidade/intenção de ir, já presente na conversa.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">日本語なら、彼に聞いてください。</div>
+          <div class="reading">にほんごなら、かれに きいてください。</div>
+          <div class="pt-translation">Se for sobre japonês, pergunte a ele.</div>
+          <div class="pt-explain">なら reagindo a um tópico específico (japonês), indicando a pessoa certa para aquilo.</div>
+        </div>
+      </div>
+
+      <div class="card obs-box">
+        <div class="card-label"><span class="num">✓</span> Observações importantes</div>
+        <ul>
+          <li>なら costuma soar natural em resposta a algo que já foi dito — usar なら "do nada", sem contexto prévio, pode soar estranho.</li>
+          <li>なら NÃO carrega nuance de sequência temporal, diferente de たら (que pode significar tanto "se" quanto "quando").</li>
+          <li>Muito comum em recomendações e conselhos direcionados a um tópico específico que já surgiu na conversa.</li>
+        </ul>
+      </div>
+
+      <div class="warn-box">
+        <div class="warn-stamp">訂正</div>
+        <div class="card-label"><span class="num">!</span> Erros comuns</div>
+        <ul>
+          <li><strong>Usar なら para expressar sequência temporal ("depois que").</strong> Essa é função de たら, não de なら.</li>
+          <li><strong>Usar なら "do nada", sem nenhum tópico prévio na conversa.</strong> Soa deslocado; nesses casos ば／たら são mais naturais.</li>
+          <li><strong>Esquecer que, com substantivos, なら vem direto após o substantivo, sem partícula extra.</strong> Errado: <span class="jp">京都はなら</span>. Certo: <span class="jp">京都なら</span>.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">5</span> Como reconhecer esta gramática</div>
+        <p>Identifique o tipo de palavra antes de なら em cada frase (substantivo, verbo ou adjetivo).</p>
+        <ol class="pattern-list">
+          <li><span class="jp">カメラなら、あの店がいいですよ。</span></li>
+          <li><span class="jp">辛い食べ物なら、これがおすすめです。</span></li>
+          <li><span class="jp">そんなに心配なら、電話してみたらどうですか。</span></li>
+          <li><span class="jp">パーティーに行くなら、プレゼントを買いましょう。</span></li>
+          <li><span class="jp">忙しいなら、無理しなくてもいいですよ。</span></li>
+          <li><span class="jp">安いホテルなら、駅前にいいのがありますよ。</span></li>
+          <li><span class="jp">本当に好きなら、諦めないほうがいいですよ。</span></li>
+          <li><span class="jp">田中さんに聞くなら、今がチャンスですよ。</span></li>
+          <li><span class="jp">静かな場所なら、図書館がいいですよ。</span></li>
+          <li><span class="jp">そのアプリなら、私も使っています。</span></li>
+        </ol>
+        <button class="gabarito-toggle" onclick="togglePatternKey('key-nara', this)">🔍  Ver padrões de cada frase</button>
+        <ol class="pattern-key" id="key-nara">
+          <li><strong>1.</strong> カメラなら — S</li>
+          <li><strong>2.</strong> 辛い食べ物なら — S</li>
+          <li><strong>3.</strong> 心配なら — Aな</li>
+          <li><strong>4.</strong> 行くなら — V辞書形</li>
+          <li><strong>5.</strong> 忙しいなら — Aい</li>
+          <li><strong>6.</strong> 安いホテルなら — S</li>
+          <li><strong>7.</strong> 好きなら — Aな</li>
+          <li><strong>8.</strong> 聞くなら — V辞書形</li>
+          <li><strong>9.</strong> 静かな場所なら — S</li>
+          <li><strong>10.</strong> そのアプリなら — S</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">6</span> Exercícios</div>
+        <div class="exercise-set">
+          <div class="exercise"><span class="q-num">1.</span><span class="q-text">A：京都に行きます。　B：京都 <span class="jp">＿＿</span>、清水寺がおすすめです。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">たら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">れば</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">と</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">2.</span><span class="q-text">行く <span class="jp">＿＿</span>、早めに出たほうがいいですよ。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">たなら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">ばなら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">ろなら</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">3.</span><span class="q-text">なら の最大の特徴は何ですか。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Sempre expressa sequência temporal</li>
+              <li><span class="opt-letter">B)</span>Reage a um tópico que a outra pessoa já mencionou</li>
+              <li><span class="opt-letter">C)</span>Só se usa para leis da natureza</li>
+              <li><span class="opt-letter">D)</span>Só se usa no passado</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">4.</span><span class="q-text">どの文が不自然ですか。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">京都なら、清水寺がおすすめです。</span>（会話の文脈で）</li>
+              <li><span class="opt-letter">B)</span>（何の文脈もなく）<span class="jp">なら、明日は晴れます。</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">忙しいなら、無理しなくてもいいですよ。</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">日本語なら、彼に聞いてください。</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">5.</span><span class="q-text">A「カメラを買いたいんです」B「カメラなら、あの店がいいですよ」のBの発言の意味は？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>B não tem interesse em câmeras</li>
+              <li><span class="opt-letter">B)</span>B reage ao tópico "câmera" mencionado, recomendando uma loja</li>
+              <li><span class="opt-letter">C)</span>B pretende comprar a câmera</li>
+              <li><span class="opt-letter">D)</span>B está ignorando o assunto</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">6.</span><span class="q-text">Para expressar sequência temporal ("depois que"), qual estrutura é mais apropriada?</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">たら</span></li>
+              <li><span class="opt-letter">C)</span>As duas igualmente</li>
+              <li><span class="opt-letter">D)</span>Nenhuma das duas</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">7.</span><span class="q-text">"Se é Quioto, eu recomendo o Kiyomizu-dera" em japonês:</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">京都なら、清水寺がおすすめです</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">京都ならば、清水寺がおすすめでした</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">京都のなら、清水寺がおすすめです</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">京都はなら、清水寺がおすすめです</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">8.</span><span class="q-text">忙し <span class="jp">＿＿</span>、無理しなくてもいいですよ。（忙しい、なら）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">いなら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">くなら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">かなら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">さなら</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">9.</span><span class="q-text">相手が言った話題（例：「日本語を勉強しています」）に対して、関連したアドバイスをする時に最も自然なのは？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">日本語ば、頑張ってください</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">日本語なら、この本がおすすめです</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">日本語と、この本がおすすめです</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">日本語ため、この本がおすすめです</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">10.</span><span class="q-text">静かな場所 <span class="jp">＿＿</span>、図書館がいいですよ。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">なら</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">なのなら</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">がなら</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">をなら</span></li>
+            </ul>
+          </div>
+        </div>
+        <button class="gabarito-toggle" onclick="toggleGabarito('gab-nara', this)">📖  Ver Gabarito</button>
+        <div class="gabarito" id="gab-nara">
+          <h4>Gabarito — なら</h4>
+          <div class="gabarito-item"><span class="correct-answer">Questão 1 — A) なら</span><p>京都なら: reagindo ao tópico "Quioto" mencionado por A.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 2 — A) なら</span><p>行くなら: V辞書形 + なら.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 3 — B</span><p>A característica central de なら é reagir a um tópico já mencionado ou implícito na conversa.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 4 — B</span><p>Usar なら sem nenhum contexto/tópico prévio soa deslocado.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 5 — B</span><p>B reage ao tópico "câmera" que A mencionou, oferecendo uma recomendação relacionada.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 6 — B) たら</span><p>たら pode expressar sequência temporal; なら não tem essa função.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 7 — A) 京都なら、清水寺がおすすめです</span><p>なら reage ao tópico já mencionado (Quioto).</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 8 — A) いなら</span><p>忙しいなら: Aい + なら.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 9 — B</span><p>なら é a escolha natural para reagir a um tópico já mencionado com uma recomendação relacionada.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 10 — A) なら</span><p>静かな場所なら: substantivo + なら.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grammar-block" id="g-ha-arimasenka">
+      <div class="jp-title-row">
+        <div class="jp-grid"><span>は</span><span>あ</span><span>り</span><span>ま</span><span>せ</span><span>ん</span><span>か</span></div>
+        <div class="jp-title-meta">
+          <div class="kana">はありませんか</div>
+          <div class="translation">Não teria...? / Não haveria...? — pergunta negativa educada</div>
+        </div>
+      </div>
+
+      <div class="card usage-box">
+        <div class="card-label"><span class="num">1</span> Quando é utilizada</div>
+        <p>はありませんか é uma forma de pergunta negativa, mais <strong>suave e educada</strong> que a pergunta positiva direta (がありますか) — como se o falante já estivesse preparado para uma resposta negativa, tirando peso da pergunta.</p>
+        <p><strong>Use quando:</strong> quer perguntar sobre a existência de algo de forma mais delicada/educada.</p>
+        <p><strong>Evite quando:</strong> quer uma pergunta neutra e direta sobre existência — がありますか já cumpre bem esse papel.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">2</span> Formação</div>
+        <table>
+          <thead><tr><th>Padrão</th><th>Exemplo</th></tr></thead>
+          <tbody>
+            <tr><td>X + はありませんか</td><td class="jp">いいところはありませんか</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">3</span> Explicação detalhada</div>
+        <p>Gramaticalmente, essa estrutura troca が por は antes da forma negativa de あります + か. O efeito pragmático, porém, é uma pergunta mais suave e educada do que がありますか.</p>
+        <p>Perguntar de forma negativa (はありませんか) costuma soar mais humilde/delicado — como se o falante já estivesse preparado para uma resposta negativa.</p>
+        <p>Muito comum em situações de atendimento ao cliente, pedidos em lojas, ou ao pedir recomendações.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">4</span> Exemplos</div>
+
+        <div class="pattern-tag">X はありませんか</div>
+        <div class="example">
+          <div class="jp-sentence">すみません、もう少し安いのはありませんか。</div>
+          <div class="reading">すみません、もうすこし やすいのは ありませんか。</div>
+          <div class="pt-translation">Com licença, não teria algo um pouco mais barato?</div>
+          <div class="pt-explain">Pergunta educada, típica de uma loja.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">近くにいい病院はありませんか。</div>
+          <div class="reading">ちかくに いい びょういんは ありませんか。</div>
+          <div class="pt-translation">Não haveria um bom hospital por perto?</div>
+          <div class="pt-explain">Pedido de recomendação, de forma delicada.</div>
+        </div>
+        <div class="example">
+          <div class="jp-sentence">何か質問はありませんか。</div>
+          <div class="reading">なにか しつもんは ありませんか。</div>
+          <div class="pt-translation">Não há nenhuma pergunta?</div>
+          <div class="pt-explain">Pergunta educada em contexto formal (fim de uma apresentação, por exemplo).</div>
+        </div>
+      </div>
+
+      <div class="card obs-box">
+        <div class="card-label"><span class="num">✓</span> Observações importantes</div>
+        <ul>
+          <li>Comparando いいところがありますか (pergunta neutra) com いいところはありませんか (pergunta mais suave, sugerindo incerteza) — a segunda soa mais humilde/educada.</li>
+          <li>Muito usada em atendimento ao cliente e em pedidos de recomendação.</li>
+          <li>A resposta pode ser tanto afirmativa (はい、あります) quanto negativa (いいえ、ありません), apesar da pergunta estar na forma negativa.</li>
+        </ul>
+      </div>
+
+      <div class="warn-box">
+        <div class="warn-stamp">訂正</div>
+        <div class="card-label"><span class="num">!</span> Erros comuns</div>
+        <ul>
+          <li><strong>Achar que はありませんか sempre espera resposta negativa.</strong> Na prática, é só uma forma mais educada de perguntar, e a resposta pode ser afirmativa normalmente.</li>
+          <li><strong>Confundir はありませんか com はないですか.</strong> Ambas existem e soam parecidas, mas tendem a aparecer em registros ligeiramente diferentes.</li>
+          <li><strong>Trocar は por が sem perceber que isso muda a nuance de suavidade da pergunta.</strong></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">5</span> Comparação</div>
+        <div class="comparison-title">がありますか × はありませんか</div>
+        <table>
+          <thead><tr><th></th><th class="jp">がありますか</th><th class="jp">はありませんか</th></tr></thead>
+          <tbody>
+            <tr><td>Tom</td><td>Neutro, direto</td><td>Mais suave, educado, sugere incerteza</td></tr>
+            <tr><td>Contexto</td><td>Pergunta comum do dia a dia</td><td>Atendimento ao cliente, pedidos delicados, recomendações</td></tr>
+            <tr><td>Exemplo</td><td class="jp">いいところがありますか。</td><td class="jp">いいところはありませんか。</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.9rem;color:var(--sumi-soft);margin-top:12px">Ambas podem receber resposta afirmativa — a diferença está só no tom da pergunta, não no tipo de resposta esperada.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">6</span> Como reconhecer esta gramática</div>
+        <p>Identifique o substantivo sendo perguntado em cada frase com はありませんか.</p>
+        <ol class="pattern-list">
+          <li><span class="jp">もう少し大きいサイズはありませんか。</span></li>
+          <li><span class="jp">何か他の色はありませんか。</span></li>
+          <li><span class="jp">この近くに郵便局はありませんか。</span></li>
+          <li><span class="jp">何か問題はありませんか。</span></li>
+          <li><span class="jp">もっと安い部屋はありませんか。</span></li>
+          <li><span class="jp">何か質問はありませんか。</span></li>
+          <li><span class="jp">駅の近くにコンビニはありませんか。</span></li>
+          <li><span class="jp">もう少し静かな席はありませんか。</span></li>
+          <li><span class="jp">何か食べ物のアレルギーはありませんか。</span></li>
+          <li><span class="jp">他にいい方法はありませんか。</span></li>
+        </ol>
+        <button class="gabarito-toggle" onclick="togglePatternKey('key-ha-arimasenka', this)">🔍  Ver padrões de cada frase</button>
+        <ol class="pattern-key" id="key-ha-arimasenka">
+          <li><strong>1.</strong> サイズはありませんか</li>
+          <li><strong>2.</strong> 色はありませんか</li>
+          <li><strong>3.</strong> 郵便局はありませんか</li>
+          <li><strong>4.</strong> 問題はありませんか</li>
+          <li><strong>5.</strong> 部屋はありませんか</li>
+          <li><strong>6.</strong> 質問はありませんか</li>
+          <li><strong>7.</strong> コンビニはありませんか</li>
+          <li><strong>8.</strong> 席はありませんか</li>
+          <li><strong>9.</strong> アレルギーはありませんか</li>
+          <li><strong>10.</strong> 方法はありませんか</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <div class="card-label"><span class="num">7</span> Exercícios</div>
+        <div class="exercise-set">
+          <div class="exercise"><span class="q-num">1.</span><span class="q-text">すみません、もう少し安いの <span class="jp">＿＿</span>。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">はありませんか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">はあります</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">はないですませんか</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">はいますか</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">2.</span><span class="q-text">「いいところがありますか」と「いいところはありませんか」の違いは？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>O significado é idêntico, sem diferença nenhuma</li>
+              <li><span class="opt-letter">B)</span>A segunda é uma forma mais suave e educada de perguntar</li>
+              <li><span class="opt-letter">C)</span>A primeira é a forma mais suave</li>
+              <li><span class="opt-letter">D)</span>A segunda só aceita resposta negativa</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">3.</span><span class="q-text">近くにいい病院 <span class="jp">＿＿</span>。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">はありませんか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">はいませんか</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">をありませんか</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">がいませんか</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">4.</span><span class="q-text">「はありませんか」という質問について、正しいのは？</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Sempre recebe resposta negativa</li>
+              <li><span class="opt-letter">B)</span>Pode receber resposta afirmativa normalmente</li>
+              <li><span class="opt-letter">C)</span>Não pode ser usada como pergunta</li>
+              <li><span class="opt-letter">D)</span>Só se usa no passado</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">5.</span><span class="q-text">「もう少し大きいサイズはありませんか」é usada principalmente em qual situação?</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Conversa casual entre amigos</li>
+              <li><span class="opt-letter">B)</span>Pedido educado a um funcionário/vendedor</li>
+              <li><span class="opt-letter">C)</span>Falando sozinho</li>
+              <li><span class="opt-letter">D)</span>Dando uma ordem</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">6.</span><span class="q-text">"Não haveria um bom hospital por perto?" em japonês:</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">近くにいい病院がありますか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">近くにいい病院はありませんか</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">近くにいい病院でしょうか</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">近くにいい病院かもしれません</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">7.</span><span class="q-text">何か <span class="jp">＿＿</span>。（質問、はありませんか）</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">質問はありませんか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">質問がいませんか</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">質問をありませんか</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">質問はいませんか</span></li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">8.</span><span class="q-text">はありませんか を usar tem qual efeito principal?</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span>Deixar o interlocutor em apuros</li>
+              <li><span class="opt-letter">B)</span>Dar uma impressão mais educada e delicada</li>
+              <li><span class="opt-letter">C)</span>Não há outra opção gramatical disponível</li>
+              <li><span class="opt-letter">D)</span>Colocar a frase no passado</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">9.</span><span class="q-text">Para perguntar a um vendedor, de forma mais educada, se um produto está disponível, qual é mais adequado?</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">これ、ありますか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">これはありませんか</span></li>
+              <li><span class="opt-letter">C)</span>As duas têm exatamente a mesma educação</li>
+              <li><span class="opt-letter">D)</span>Nenhuma das duas é apropriada</li>
+            </ul>
+          </div>
+          <div class="exercise"><span class="q-num">10.</span><span class="q-text">他にいい方法 <span class="jp">＿＿</span>。</span>
+            <ul class="options">
+              <li><span class="opt-letter">A)</span><span class="jp">はありませんか</span></li>
+              <li><span class="opt-letter">B)</span><span class="jp">はいませんか</span></li>
+              <li><span class="opt-letter">C)</span><span class="jp">をありませんか</span></li>
+              <li><span class="opt-letter">D)</span><span class="jp">でありませんか</span></li>
+            </ul>
+          </div>
+        </div>
+        <button class="gabarito-toggle" onclick="toggleGabarito('gab-ha-arimasenka', this)">📖  Ver Gabarito</button>
+        <div class="gabarito" id="gab-ha-arimasenka">
+          <h4>Gabarito — はありませんか</h4>
+          <div class="gabarito-item"><span class="correct-answer">Questão 1 — A) はありませんか</span><p>Pergunta educada, mais suave.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 2 — B</span><p>いいところはありませんか soa mais suave e delicado que がありますか.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 3 — A) はありませんか</span><p>Substantivo + はありませんか para objetos/lugares inanimados.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 4 — B</span><p>Apesar da forma negativa, a resposta pode ser perfeitamente afirmativa.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 5 — B</span><p>Típico de atendimento ao cliente ou pedidos educados.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 6 — B) 近くにいい病院はありませんか</span></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 7 — A) 質問はありませんか</span></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 8 — B</span><p>A estrutura serve para suavizar a pergunta, soando mais educada.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 9 — B) これはありませんか</span><p>Soa mais educado/delicado num contexto de atendimento.</p></div>
+          <div class="gabarito-item"><span class="correct-answer">Questão 10 — A) はありませんか</span></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
