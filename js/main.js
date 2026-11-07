@@ -7,6 +7,13 @@
 
 const NAV_ITEMS = [
   { page: 'index.html',      badge: '序', label: 'Introdução' },
+  { page: 'cap31.html',      badge: '31', label: 'Capítulo 31' },
+  { page: 'cap32.html',      badge: '32', label: 'Capítulo 32' },
+  { page: 'cap33.html',      badge: '33', label: 'Capítulo 33' },
+  { page: 'cap34.html',      badge: '34', label: 'Capítulo 34' },
+  { page: 'cap35.html',      badge: '35', label: 'Capítulo 35' },
+  { page: 'cap36.html',      badge: '36', label: 'Capítulo 36' },
+  { page: 'cap37.html',      badge: '37', label: 'Capítulo 37' },
   { page: 'cap38.html',      badge: '38', label: 'Capítulo 38' },
   { page: 'cap39.html',      badge: '39', label: 'Capítulo 39' },
   { page: 'cap40.html',      badge: '40', label: 'Capítulo 40' },
@@ -39,7 +46,7 @@ let html = ''
   + '<div class="sidebar-header">'
   +   '<div class="logo-jp">日本語</div>'
   +   '<div class="logo-sub">Study Guide</div>'
-  +   '<div class="logo-tag">Capítulos 45–50 · Revisão para prova</div>'
+  +   '<div class="logo-tag">Capítulos 31–50 · Revisão para prova</div>'
   + '</div>'
   + '<nav class="sidebar-nav"><ul>';
 
